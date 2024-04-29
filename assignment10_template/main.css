@@ -1,5 +1,6 @@
 body {
   margin: 60px;
+  font-family: 'Times New Roman', Times, serif ;
 }
 
 nav {
@@ -46,9 +47,16 @@ article > p {
   font-size: 20px;
 }
 
-.story_image {
-  width: 100%;
+div {
+  text-align: center;
 }
+
+.story_image {
+  width: 90%;
+  display: block; /* Ensures the image behaves as a block-level element */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
 
 .caption {
   color: gray;
